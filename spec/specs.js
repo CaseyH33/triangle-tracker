@@ -4,7 +4,7 @@ describe('triangleTracker', function() {
   });
 
   it("is isosceles if exactly two sides are equal", function() {
-    expect(triangleTracker(2,2,1)).to.equal("Is isosceles");
+    expect(triangleTracker(1,4,4)).to.equal("Is isosceles");
   });
 
   it("is scalene if no sides are equal", function() {
